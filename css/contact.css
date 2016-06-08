@@ -1,0 +1,69 @@
+section{
+	background-image: url(../image/large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 193px 12px;
+}
+
+.formulario{
+	border-top: 7px solid #74A3DB;
+    width: 50%;
+    background-color: white;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+span {
+	color: red;
+}
+
+h3{
+	margin-top:0px;
+}
+
+hr{
+	margin-top: 1px;
+}
+
+.form-control{
+	border-radius: 0;
+}
+
+.btn{
+	font-size: 14px;
+    color: white;
+    background-color: #74A3DB;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 600;
+}
+/*modificado Bootstrap*/
+.form-horizontal .control-label{
+	text-align: left;
+}
+/*--------------------*/
+
+.enviar{
+	margin-bottom: 8px;
+}
+
+.beforenviar{
+	width: 50%;
+}
+
+.footer{
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 0;
+}
+
+.footer1{
+	position: relative;
+    left: 0%;
+}
+
+.footer2{
+	position: relative;
+    left: 2%;
+}

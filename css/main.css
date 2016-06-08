@@ -1,0 +1,341 @@
+body{
+	font-family: 'Lato';
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default {
+ 	background-color: transparent;
+    border-color: transparent;
+}    
+
+.nav>li>a{
+	font-size: 19px;
+	padding: 43px 28px;
+}
+
+.navegador2{
+	z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 15px;
+}
+
+.banner{
+	background-image: url(../image/large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	background-color: rgba(51, 51, 51, 0.62);
+	color: white;
+}
+
+.opacity{
+	background-color: rgba(0, 0, 0, 0.48);
+}
+
+.h1big {
+    width: 61%;
+    margin: auto;
+    font-size: 47px;
+    padding-top: 267px;
+    padding-bottom: 121px;
+}
+
+.celeste{
+	background-color: rgba(78, 126, 184, 0.78);
+	padding-top: 30px;
+    padding-bottom: 37px;
+}
+
+.celeste p{
+	font-size: 12.7px;
+}
+
+button:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+
+button {
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-left: 38px;
+}
+
+button h3{
+	font-size: 21px;
+    margin: 7px 5px;
+}
+
+/*revisar*/
+
+.servicios{ 
+	border-bottom: 1px solid rgba(128, 128, 128, 0.17);
+    padding-bottom: 167px;
+    position: relative;
+    margin-bottom: 124px;
+    padding-right: 7%;
+    padding-left: 7%;
+}
+
+.servicios h1{
+	color: #70B1FF;
+	margin: 108px;
+}
+
+.servicios a:hover{	
+	color:transparent;
+}
+
+.servicios i:hover {
+    background-color: rgba(85, 85, 85, 0.16);
+    padding: 60px;
+}
+
+.full h3{
+	width: 57%;
+}
+
+.full p, .resultado p{
+	margin: auto;
+    width: 78%;
+}
+
+.gratis h3{
+	width: 31%;
+}
+
+.gratis p{
+	margin: auto;
+    width: 73%;
+}
+
+.resultado h3{
+	width: 61%;
+}
+
+.servicios h3{
+	color: #7994AE;
+	margin: 96px auto 35px auto;
+}
+
+.service {
+	color: #70B1FF;
+    font-size: 41px;
+    padding: 53px;
+    border-radius: 85px;
+    box-shadow: -1px 2px 5px gray;
+}
+
+.flechaseparador{
+	position: absolute;
+	bottom: -7%;
+    left: 46.5%;
+}
+
+.exampletesting h1,.xqusertesting h1{
+	color: #7994AE;
+	display: inline-block;
+	padding-left: 5%;
+}
+
+.xqusertesting h1{
+	padding-left: 1%;
+}
+
+.exampletesting .imagenletra, .xqusertesting img{
+	width: 52%;
+	vertical-align: bottom;
+}
+
+.flecha{
+	width: 11%;
+}
+
+.exampletesting{
+	padding-bottom: 75px;
+	padding-right: 8%;
+    padding-left: 8%;	
+    border-bottom: 1px solid rgba(128, 128, 128, 0.17);
+}
+
+.exampletesting p{
+	padding-top: 4%;
+}
+
+.exampletesting a{
+ 	font-size: 13px;
+}
+
+.exampletesting .p2{
+	padding-right: 5%;
+}
+
+.computer{
+	background-image: url(../image/sec-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:0px;
+}
+
+.computerfondo{
+	background-color: rgba(0, 0, 0, 0.48);
+    padding: 46%;
+}
+
+.containerbig{
+	padding: 0 2%;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.17); 
+}
+
+.icon-pencil{
+	font-size: 20px;
+}
+
+.container h2{
+	padding-bottom: 1%;
+}
+
+.containerbig h4{	
+	color: #70B1FF;
+}
+
+.pasos{
+	padding-right: 2%;
+	padding-left: 5%;
+	position: relative;
+}
+
+.pasos h2{
+	padding-bottom: 7%;
+}
+
+.pasos ul, .xqusertesting ul{
+	line-height: 2.5;
+}
+
+.pasos .p1{
+    padding-bottom: 5%;
+    line-height: 2;
+}
+
+.pasos .p3{
+    padding-bottom: 3.5%;
+    line-height: 2;
+}
+
+.iconoazul{
+	font-size: 32px;
+    padding: 2.5%;
+    border-radius: 53%;
+    background-color: #50BDEA;
+    color: white;
+    position: absolute;
+	left: -18px;
+    top: 102px;
+}
+
+.icon-tools-2{
+	top: 261px;
+}
+
+.icon-magnifying-glass{
+	top: 420px;
+}
+
+.flechaseparador2{
+	position: absolute;
+	left: -48px;
+	top: 541px;	
+}
+
+.imagenjoven {
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 97.5%;
+    background-position: right;
+    padding: 183px;
+}
+
+.xqusertesting{
+    padding-right: 8.5%;
+    padding-left: 8.5%;
+    padding-top: 10%;
+}
+
+.xqusertesting .prf1{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.xqusertesting .prf2{
+	padding-top: 2%;
+	padding-bottom: 23%;
+}
+
+.afterfooter{
+	padding: 2% 15% 1.5%;
+ 	background-color: rgba(78, 126, 184, 0.78);
+ 	color: white;
+}
+
+.afterfooter .col2{
+	padding-top: 3.5%;
+}
+
+.afterfooter button{
+	margin:0px; 
+}
+
+.celeste1 p {
+    font-size: 11.5px;
+    padding-left: 2%;
+}
+
+footer{
+	padding: 2% 3% 0.5%;
+	background-color: #2A3541;
+	color: white;
+	font-size: 12px;
+}
+
+.icofoot{
+	font-size: 30px;
+    margin-left: 3%;
+}
+
+footer .copyright{
+	margin-top: 18px;
+}
+
+
+
+
+
+
+
+/*
+a.boton {
+	background-color: red;
+	border-radius: 100%;
+	padding: 50px;
+	color: white;
+	font-size: 30px;
+}
+
+a.boton:hover {
+	background-color: yellow;
+	color: black;
+	text-decoration: none;
+
+}*/
